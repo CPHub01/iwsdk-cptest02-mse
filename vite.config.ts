@@ -50,5 +50,5 @@ export default defineConfig({
     esbuildOptions: { target: "esnext" },
   },
   publicDir: "public",
-  base: "./iwsdk-cptest02-mse",
+  base: "./iwsdk-cptest02-mse/",
 });
