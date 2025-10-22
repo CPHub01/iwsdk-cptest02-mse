@@ -71,7 +71,7 @@
         0.5,
         0.5
       ],
-      "asset": 1,
+      "asset": 2,
       "extras": {
         "meta_spatial": {
           "version": 1,
@@ -95,7 +95,7 @@
         -0.10692158341407776,
         0
       ],
-      "asset": 2,
+      "asset": 1,
       "extras": {
         "meta_spatial": {
           "entity_id": "Environment"
@@ -109,12 +109,12 @@
       "uri": "../gltf/generated/plantSansevieria.gltf"
     },
     {
-      "name": "robot",
-      "uri": "../gltf/generated/robot.gltf"
-    },
-    {
       "name": "environmentDesk",
       "uri": "../gltf/generated/environmentDesk.gltf"
+    },
+    {
+      "name": "robot",
+      "uri": "../gltf/generated/robot.gltf"
     }
   ]
 }
