@@ -7,14 +7,28 @@
   "scenes": [
     {
       "nodes": [
-        0,
         1,
+        0,
         2,
         3
       ]
     }
   ],
   "nodes": [
+    {
+      "name": "plantSansevieria",
+      "translation": [
+        1.2000000476837158,
+        0.8500000238418579,
+        -1.7999999523162842
+      ],
+      "asset": 1,
+      "extras": {
+        "meta_spatial": {
+          "entity_id": "plantSansevieria"
+        }
+      }
+    },
     {
       "name": "welcomePanel",
       "translation": [
@@ -46,20 +60,6 @@
       }
     },
     {
-      "name": "plantSansevieria",
-      "translation": [
-        1.2000000476837158,
-        0.8500000238418579,
-        -1.7999999523162842
-      ],
-      "asset": 0,
-      "extras": {
-        "meta_spatial": {
-          "entity_id": "plantSansevieria"
-        }
-      }
-    },
-    {
       "name": "robot",
       "translation": [
         -1.2000000476837158,
@@ -71,7 +71,7 @@
         0.5,
         0.5
       ],
-      "asset": 2,
+      "asset": 0,
       "extras": {
         "meta_spatial": {
           "version": 1,
@@ -95,7 +95,7 @@
         -0.10692158341407776,
         0
       ],
-      "asset": 1,
+      "asset": 2,
       "extras": {
         "meta_spatial": {
           "entity_id": "Environment"
@@ -105,16 +105,16 @@
   ],
   "assets": [
     {
+      "name": "robot",
+      "uri": "../gltf/generated/robot.gltf"
+    },
+    {
       "name": "plantSansevieria",
       "uri": "../gltf/generated/plantSansevieria.gltf"
     },
     {
       "name": "environmentDesk",
       "uri": "../gltf/generated/environmentDesk.gltf"
-    },
-    {
-      "name": "robot",
-      "uri": "../gltf/generated/robot.gltf"
     }
   ]
 }
