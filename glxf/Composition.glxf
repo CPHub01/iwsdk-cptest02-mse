@@ -8,30 +8,24 @@
     {
       "nodes": [
         1,
-        2,
+        0,
         3,
-        0
+        2
       ]
     }
   ],
   "nodes": [
     {
-      "rotation": [
-        0,
-        1,
-        0,
-        -4.371138828673793e-8
-      ],
-      "name": "Environment",
+      "name": "plantSansevieria",
       "translation": [
-        0,
-        -0.10692158341407776,
-        0
+        1.2000000476837158,
+        0.8500000238418579,
+        -1.7999999523162842
       ],
-      "asset": 2,
+      "asset": 1,
       "extras": {
         "meta_spatial": {
-          "entity_id": "Environment"
+          "entity_id": "plantSansevieria"
         }
       }
     },
@@ -66,16 +60,22 @@
       }
     },
     {
-      "name": "plantSansevieria",
-      "translation": [
-        1.2000000476837158,
-        0.8500000238418579,
-        -1.7999999523162842
+      "rotation": [
+        0,
+        1,
+        0,
+        -4.371138828673793e-8
       ],
-      "asset": 0,
+      "name": "Environment",
+      "translation": [
+        0,
+        -0.10692158341407776,
+        0
+      ],
+      "asset": 2,
       "extras": {
         "meta_spatial": {
-          "entity_id": "plantSansevieria"
+          "entity_id": "Environment"
         }
       }
     },
@@ -91,7 +91,7 @@
         0.5,
         0.5
       ],
-      "asset": 1,
+      "asset": 0,
       "extras": {
         "meta_spatial": {
           "version": 1,
@@ -105,12 +105,12 @@
   ],
   "assets": [
     {
-      "name": "plantSansevieria",
-      "uri": "../gltf/generated/plantSansevieria.gltf"
-    },
-    {
       "name": "robot",
       "uri": "../gltf/generated/robot.gltf"
+    },
+    {
+      "name": "plantSansevieria",
+      "uri": "../gltf/generated/plantSansevieria.gltf"
     },
     {
       "name": "environmentDesk",
